@@ -1,0 +1,973 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1D1D1D;
+    overflow-x: hidden;
+}
+
+.yellow {
+    color: #FFB905;
+}
+
+.white {
+    color: white;
+}
+
+.white-opacity {
+    color: white;
+    filter: opacity(70%);
+}
+
+.black {
+    color: black;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu {
+    padding: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration:none;
+    font-family: Stick No Bills;
+    font-weight: SemiBold;
+    font-size: 20px;
+}
+
+.menu:hover {
+    box-shadow: rgba(240, 195, 46, 0.4) 0px 5px, rgba(240, 195, 46, 0.3) 0px 10px, rgba(240, 195, 46, 0.2) 0px 15px, rgba(240, 195, 46, 0.1) 0px 20px, rgba(240, 195, 46, 0.05) 0px 25px;
+    color:#FFB905
+}
+
+
+.header-item {
+    flex: 1 0;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    justify-content: center;
+    background-color: black;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.padding1 {
+    padding: 10px;
+}
+
+.padding2 {
+    padding-bottom: 30px;
+}
+
+.window1 {
+    height: 720px;
+    background-image:url(./Изображение\ 1\ экрана.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    font-family: Stick No Bills;
+    font-size: 64px;
+    font-weight: normal;
+    position: absolute;
+    top: 26%;
+    left:140px;
+}
+
+.little-title {
+    font-family: TT Travels;
+    font-size: 24px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 140px;
+    filter: opacity(70%);
+}
+
+.button {
+    width: 199px;
+    height: 49px;
+    border-radius: 14px;
+    font-family: TT Travels;
+    font-size: 24px;
+    box-shadow: 0px 11px 14px 2px rgba(0, 0, 0, 0.77);
+    color: black;
+    background-color: #FFB905;
+    font-weight:500;
+    position: absolute;
+    top: 64%;
+    left: 140px;
+}
+
+.button:hover {
+    box-shadow: 0px 5px 14px 2px rgba(211, 145, 3, 0.77);
+    color: #FFB905;
+    background-color: black;
+}
+
+.window2 {
+    
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    border-radius: 16px;
+    border: 1px solid #FFB905;
+    margin-left: 140px;
+    margin-right: 40px;
+}
+
+.text {
+    margin-left: 220px ;
+    margin-right: 40px;
+}
+
+.title2 {
+    display: flex;
+    font-size: 36px;
+    font-family: Stick No Bills;
+    padding-bottom: 24px;
+    justify-content: start;
+}
+
+.little-title2 {
+    font-family: TT Travels;
+    font-size: 18px;
+    font-weight: 300;
+    filter: opacity(70%);
+    padding-bottom: 30px;
+}
+
+.button2 {
+    width: 199px;
+    height: 49px;
+    border-radius: 14px;
+    font-family: TT Travels;
+    font-size: 24px;
+    box-shadow: 0px 5px 14px 2px rgba(0, 0, 0, 0.77);
+    color: black;
+    background-color: #FFB905;
+    font-weight:500;
+    position: relative;
+    top: 33px;
+}
+
+.button2:hover {
+    box-shadow: 0px 5px 14px 2px rgba(211, 145, 3, 0.77);
+    color: #FFB905;
+    background-color: black;
+}
+
+.design-fitness {
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    left: 1170px;
+}
+
+.ellips {
+    width: 197px; 
+    height: 197px;
+    background: #FFB905;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    left: 1000px;
+    bottom: 40px;
+    filter: blur(190px);
+    }
+
+.window3 {
+    padding-bottom: 100px;
+}
+
+.design-style {
+display: flex;
+position: relative;
+bottom: 50px;
+}
+
+.title3 {
+    font-family: Stick No Bills;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.soderjanie1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.padding-left {
+    padding-left: 240px;
+}
+
+.little-text {
+    font-family: TT Travels;
+    font-size: 24px;
+    font-weight: Regular;
+    filter: opacity(70%);
+    display: flex;
+    align-items: center;
+    flex: 1 1 350px;
+}
+
+.aboutus-line {
+    position: relative;
+    top: 25px;
+    right: 107px;
+}
+
+.advantages-line {
+    position: relative;
+    top: 18px;
+    right: 148px;
+}
+
+.design-trainers {
+    position:relative;
+    left: 400px;
+    top: 50px;
+}
+
+.title4 {
+    display: flex;
+    justify-content: center;
+    font-family: Stick No Bills;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.trainers-line {
+    position: relative;
+    bottom: 10px;
+    left: 712px;
+}
+
+.rectagle {
+    width: 280px;
+    height: 412px;
+    border-radius: 0px 0px 12px 12px ;
+    border: 1px solid transparent; /* Параметры рамки */
+    background: 
+     linear-gradient(#1D1D1D, #FFB905 350%) padding-box, /* Белый фон */
+     linear-gradient(0deg, #FFB905, #1D1D1D 60%) border-box; /* Градиентная рамка */
+}
+
+.img-girl {
+    position: relative;
+    left: 13px;
+    top: 1px;
+}
+
+.soderjanie2 {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.biography {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;;
+    font-family: TT Travels;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.see-more {
+    font-family: TT Travels;
+    font-size: 18px;
+    font-weight: lighter;
+    filter: opacity(70%);
+    text-decoration:underline;
+    display: flex;
+    justify-content: end;
+    margin-right: 140px;
+}
+
+.design-our {
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+
+.ellips1 {
+    width: 197px; 
+    height: 80px;
+    background: #FFB905;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    right: 100px;
+    bottom: 120px;
+    filter: blur(190px);
+    visibility:visible;
+}
+
+.title5 {
+    display: flex;
+    justify-content: center;
+    font-family: Stick No Bills;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.classes-line {
+    position: relative;
+    left: 712px;
+    bottom:10px
+}
+
+.design-classes {
+    position: relative;
+    bottom: 62px;
+    left: 870px;
+}
+
+.all-programs {
+    font-family: TT Travels;
+    font-size: 18px;
+    font-weight: lighter;
+    filter: opacity(70%);
+    text-decoration:underline;
+    display: flex;
+    justify-content: end;
+    margin-right: 140px;
+    position: relative;
+    bottom: 200px;
+}
+
+/* Содержание для Classes Варианта 2 */
+.soderjanie-classes-prototip {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    bottom: 170px;
+}
+
+/* Это содержание для бокса картинок */
+.img-container-prototip { 
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 266px;
+    border: 1px solid #FFB905;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.container-prototip {
+    color: black;
+}
+
+.img-container-prototip:hover {
+    box-shadow: rgba(186, 153, 9, 0.56) 0px 22px 70px 4px;
+}
+
+/* Это содержание для картинок ввиде фона в диве  */
+.img-background-for-container1 {
+    background-image: url(./claases\ foto\ 1.png);
+}
+
+.img-background-for-container2 {
+    background-image: url(./classes\ foto\ 2.png);
+}
+
+.img-background-for-container3 {
+    background-image: url(./classes\ foto\ 3.png);
+}
+
+.img-background-for-container4 {
+    background-image: url(./classes\ foto\ 4.png);
+}
+
+.img-background-for-container5 {
+    background-image: url(./classes\ foto\ 5.png);
+}
+
+.img-background-for-container6 {
+    background-image: url(./classes\ foto\ 6.png);
+}
+
+/* Это прямоугольник ректейгл чёрного цвета на фоне картинки  */
+.rectagle-classes-prototip {
+    width: 100%;
+    height: 85px;
+    bottom: 0;
+    background-color: black;
+    filter: opacity(70%);
+    position: absolute;
+    border: 2px solid;
+    border-radius: 0px 0px 12px 12px;
+    z-index: index auto;;
+}
+
+
+/* Это Заголовки прямоугольника ректейгла над чёрного цвета на фоне картинки  */
+.rectagle-name-prototip {
+    font-size: 36px;
+    font-family: TT Travels;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.design-be {
+    position: relative;
+    right: 5px;
+    bottom: 160px;
+}
+
+.title6 {
+    display: flex;
+    justify-content: center;
+    font-family: Stick No Bills;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    bottom: 210px;
+}
+
+.our-prices-line {
+    position: relative;
+    left: 712px;
+    bottom: 215px;
+}
+
+.design-gantel {
+    position: relative;
+    left: 1040px;
+    bottom: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.little-text2 {
+    font-family: TT Travels;
+    font-size: 24px ;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.div-ul-li {
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    position: relative;
+    bottom: 950px;
+}
+
+ul {
+    list-style-type: disc;
+    color: #FFB905;
+}
+
+li {
+    font-size: 24px;
+    font-family: TT Travels;
+    filter: opacity(70%);
+    color: white;
+}
+
+li::marker {
+    color: #FFB905;
+}
+
+.design-stronger {
+    position: relative;
+    left: 78px;
+}
+
+.window6 {
+    max-height: 760px;
+}
+
+.btn {
+    width: 380px;
+    height: 63px;
+    background-color:  black;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    border: 2px solid #FFB905;
+}
+
+.soderjanie-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    bottom: 820px;
+}
+
+.btn-name {
+    font-size: 36px;
+    font-family: TT Travels;
+    font-weight: 400;   
+}
+
+/* это контейнер для маленьких часов  */
+.little-time {
+    width: 135px;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 145px;
+    bottom: 725px;
+    border-radius: 12px;
+}
+
+.little-time2 {
+    width: 135px;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 145px;
+    bottom: 300px;
+    border-radius: 12px;
+}
+
+/* маленькие часы надпись */
+.little-time-p {
+    padding: 5px;
+    font-size: 20px;
+    font-family: TT Travels;
+    font-weight: 300;
+}
+
+/* контейнер для 3 блока вместе  */
+.soderjanie-prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+/* это изображение под цены и месяца */
+.background-img-prices {
+    background-image: url(./изображение\ для\ прайс.png);
+    border-radius: 12px 12px 12px 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* контейнер для цены и месяца вместо  */
+.prices-named {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+/* цены-prices */
+.text1-prices {
+    font-size: 36px;
+    font-family: TT Travels;
+    font-weight: 400;
+}
+
+/* месяц-prices */
+.text2-prices {
+    font-size: 24px;
+    font-family: TT Travels;
+    font-weight: 400;
+}
+
+/* Это содержание для бокса картинок */
+.img-container-prices { 
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 320px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+/* Это прямоугольник ректейгл чёрного цвета на фоне картинки  */
+.button-rectagle-prices {
+    width: 100%;
+    height: 85px;
+    bottom: 0;
+    background-color: black;
+    position: absolute;
+    border: 2px solid;
+    border-radius: 0px 0px 12px 12px;
+    z-index: index auto;;
+}
+
+.button-rectagle-prices:hover {
+    background-color: #FFB905;
+}
+
+/* Это Заголовки прямоугольника ректейгла над чёрного цвета на фоне картинки  */
+.rectagle-prices-name {
+    font-size: 36px;
+    font-family: TT Travels;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rectagle-prices-name:hover {
+    color: black;
+}
+
+/* все 6 блоков с содержаниями  */
+.all-soderjani-prices {
+    position: relative;
+    bottom: 760px;
+}
+
+.title7 {
+    display: flex;
+    justify-content: center;
+    font-family: Stick No Bills;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    top: 1250px;
+}
+
+.gallery-line {
+    position: relative;
+    left: 706px;
+    top: 1244px;
+}
+
+.gallery-fon {
+    width: 1510px;
+    position: relative;
+    top: 1000px;
+}
+
+.btn-left-gallery {
+    height: 60px;
+    width: 60px;
+    background-image: url(./кнопка\ с\ лево.svg);
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #1D1D1D;
+    margin: 10px;
+}
+
+.btn-left-gallery:hover {
+    background-image: url(./Gallery\ Кнопка\ левой\ hover.svg);
+
+}
+
+.btn-right-gallery {
+    height: 60px;
+    width: 60px;
+    background-image: url(./кнопка\ с\ правой.svg);
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #1D1D1D;
+    margin: 10px;
+}
+
+.btn-right-gallery:hover {
+    background-image: url(./Gallery\ Кнопка\ правой\ hover.svg);
+}
+
+.soderjanie-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title8 {
+    display: flex;
+    justify-content: center;
+    font-family: Stick No Bills;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    top:  100px;
+}
+
+.contacts-line {
+    position: relative;
+    left: 710px;
+    top: 90px;
+}
+
+.yandex-map {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.location-icon-soderjanie {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    left: 40px;
+}
+
+.telefon-icon-soderjanie {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+
+.email-icon-soderjanie {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative;
+    right: 40px;
+    top: 120px;
+}
+
+.img-icon-contacts-location {
+    height: 42px ;
+    width: 40px;
+}
+
+.img-icon-contacts {
+    height: 32px ;
+    width: 40px;
+}
+
+.text-for-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: TT Travels;
+    font-weight: normal;
+}
+
+.soderjanie-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tel1 {
+    padding: 5px;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-logo {
+    padding-bottom: 43px;
+}
+
+.footer-text {
+    font-family: TT Travels;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.footer-all-text {
+    padding-bottom: 94px;
+}
+
+.footer-soderjanie1 {
+    padding-right: 24px;
+}
+
+.socials-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.our-links {
+    padding-right: 84px;
+}
+
+.title-our-links {
+    font-family: Stick No Bills;
+    font-weight: normal;
+    font-size: 32px;
+    padding-bottom: 34px;
+}
+
+.title-pages {
+    font-family: TT Travels;
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.title-pages:hover {
+    color: white;
+    filter: none;
+}
+
+.title-pages-link {
+    text-decoration: none;
+}
+
+.soderjanie-icons-with-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.soderjanie-blocka {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 39px;
+}
+
+.soderjanie-blocka-email {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Us {
+    padding-right: 24px;
+}
+
+.text-with-icon-calender {
+    display:flex;
+    flex-direction: row;
+}
+
+.calender-icon {
+    padding-bottom: 34px;
+    padding-left: 11px;
+}
+
+.title-days {
+    font-family: TT Travels;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.title-days-padding {
+    padding-bottom: 19px;
+}
+
+@media screen and (max-width: 998px) {
+    h1 {
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    h1 {
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) and (max-height: 300px) {
+    h1 {
+        background-color: #FFB905;
+    }
+}
+
+
+
+
+
+
+
